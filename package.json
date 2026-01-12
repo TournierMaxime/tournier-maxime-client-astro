@@ -9,11 +9,20 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/node": "^9.5.1",
     "@astrojs/react": "^4.4.2",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.7",
+    "@mui/material": "^7.3.7",
     "@types/react": "^19.2.8",
     "@types/react-dom": "^19.2.3",
     "astro": "^5.16.9",
+    "axios": "^1.13.2",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.6",
+    "moment": "^2.30.1"
   }
 }

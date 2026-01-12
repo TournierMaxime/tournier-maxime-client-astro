@@ -1,0 +1,9 @@
+---
+import OneProject from "../../components/OneProject";
+
+const { params } = Astro;
+export const prerender = false;
+
+---
+
+<OneProject client:load slug={params.slug} />

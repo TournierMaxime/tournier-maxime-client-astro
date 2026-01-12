@@ -1,0 +1,21 @@
+---
+import { AppBar, Toolbar, Typography } from "@mui/material"
+import moment from "moment"
+---
+
+<AppBar
+  component={"footer"}
+  color="default"
+  sx={{
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    position: "relative",
+  }}
+>
+  <Toolbar>
+    <Typography variant="subtitle2">
+      © Tournier Maxime {moment().format("YYYY")} - All Rights Reserved
+    </Typography>
+  </Toolbar>
+</AppBar>

@@ -1,0 +1,382 @@
+{
+  "navigation": [
+    {
+      "link": "About",
+      "url": "/#about"
+    },
+    {
+      "link": "Projects",
+      "url": "/#projects"
+    },
+    {
+      "name": "Social Networks",
+      "networks": [
+        {
+          "link": "Linkedin",
+          "url": "https://www.linkedin.com/in/tourniermaxime/",
+          "description": "Explore my LinkedIn profile to learn more about my professional background and experiences."
+        },
+        {
+          "link": "GitHub",
+          "url": "https://github.com/TournierMaxime",
+          "description": "Check out my projects and open source contributions on my GitHub profile."
+        }
+      ]
+    },
+    {
+      "link": "FR",
+      "url": "/#"
+    }
+  ],
+
+  "about": {
+    "name": "Tournier Maxime",
+    "job": "Fullstack Developer",
+    "text": "FullStack developer with solid experience in designing, optimizing and deploying websites and applications. Expertise in Javascript technologies and associated frameworks. Ability to work in demanding environments and collaborate effectively with multidisciplinary teams"
+  },
+
+  "skills": {
+    "title": "Web and Mobile Development Expertise",
+    "intro": "Skilled in modern technologies, I specialize in developing web and mobile applications focused on performance and user experience."
+  },
+
+  "realisation": {
+    "title": "Showcase of my achievements in web and mobile development",
+    "intro": "A showcase of my achievements demonstrating technical expertise and creativity in web and mobile development.",
+    "details": "View details"
+  },
+
+  "project": {
+    "stacks": "Stacks used",
+    "contributions": "Contributions to the project"
+  },
+
+  "projects": [
+    {
+      "id": 1,
+      "stacks": [
+        {
+          "name": "Prisma"
+        },
+        {
+          "name": "Redux"
+        },
+        {
+          "name": "Node.js"
+        },
+        {
+          "name": "Docker"
+        },
+        {
+          "name": "React Native"
+        },
+        {
+          "name": "PostgreSQL"
+        }
+      ],
+      "name": "SpeedRunHub",
+      "type": "mobile",
+      "description": "iOS/Android mobile application dedicated to news and the practice of speedrunning in the field of video games. (in development)",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/stars/TournierMaxime/lists/speedhub"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "stacks": [
+        {
+          "name": "Redux"
+        },
+        {
+          "name": "Node.js"
+        },
+        {
+          "name": "Prisma"
+        },
+        {
+          "name": "PostgreSQL"
+        },
+        {
+          "name": "RabbitMQ"
+        },
+        {
+          "name": "TypeScript"
+        },
+        {
+          "name": "Docker"
+        },
+        {
+          "name": "React Native"
+        }
+      ],
+      "tasks": [
+        {
+          "task": "Developed custom hooks in React Native for better code consistency and maintainability."
+        },
+        {
+          "task": "Used Redux for centralized state management, improving application stability and predictability."
+        },
+        {
+          "task": "Managed deployments to the application stores, ensuring uninterrupted global access."
+        },
+        {
+          "task": "Implemented internationalization with i18next, expanding the multilingual accessibility of the application."
+        },
+        {
+          "task": "Secured the Node.js API with dedicated middleware, strengthening data protection."
+        },
+        {
+          "task": "Configured Docker to simplify deployment and ensure consistency across environments."
+        },
+        {
+          "task": "Improved MariaDB performance with Sequelize, maximizing responsiveness and data reliability."
+        }
+      ],
+      "links": [
+        {
+          "name": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.hoggy.videotekclientexpo"
+        },
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/us/app/videotek/id6450999253"
+        }
+      ],
+      "name": "VideoTek",
+      "type": "mobile",
+      "description": "Mobile application for iOS/Android, specially designed for fans of the world of cinema and television series."
+    },
+    {
+      "id": 3,
+      "stacks": [
+        {
+          "name": "GitLab"
+        },
+        {
+          "name": "Redux"
+        },
+        {
+          "name": "Node.js"
+        },
+        {
+          "name": "MariaDB"
+        },
+        {
+          "name": "Docker"
+        },
+        {
+          "name": "React Native"
+        },
+        {
+          "name": "Sequelize"
+        }
+      ],
+      "tasks": [
+        {
+          "task": "Implemented Redux for centralized state management, increasing the predictability and stability of the mobile application."
+        },
+        {
+          "task": "Configured the Docker development environment, improving the development workflow and ensuring consistency across environments."
+        },
+        {
+          "task": "Deployed the API to a development server, facilitating ongoing feature integration and testing."
+        },
+        {
+          "task": "Enhanced Node.js API security with specialized middleware, securing data and preventing unauthorized access."
+        },
+        {
+          "task": "Improved MariaDB database performance with Sequelize, maximizing responsiveness and reliability of data transactions."
+        },
+        {
+          "task": "Developed advanced authentication features, including RFID and QR Code scanning, for fast and secure access."
+        }
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://www.confort-electrique.fr/"
+        }
+      ],
+      "name": "Confort Electrique",
+      "type": "web",
+      "description": "Development of a centralized back office to improve data management and processes."
+    },
+    {
+      "id": 4,
+      "stacks": [
+        {
+          "name": "React"
+        },
+        {
+          "name": "Redux"
+        },
+        {
+          "name": "Node.js"
+        },
+        {
+          "name": "MariaDB"
+        },
+        {
+          "name": "Docker"
+        },
+        {
+          "name": "React Native"
+        },
+        {
+          "name": "Sequelize"
+        }
+      ],
+      "tasks": [
+        {
+          "task": "Designed custom hooks for React Native, improving the consistency and maintainability of the mobile app code."
+        },
+        {
+          "task": "Integrated Redux for centralized state management, increasing the reliability and predictability of the mobile application."
+        },
+        {
+          "task": "Lead the implementation of a back office for administrators using React.js, with the adoption of PrimeReact for a rich and intuitive user interface."
+        },
+        {
+          "task": "Ensured the configuration of the Docker development environment, optimizing the development workflow and environmental parity."
+        },
+        {
+          "task": "Deployed the API on a development server, ensuring continuous integration and agile testing of features in real time."
+        },
+        {
+          "task": "Secured the Node.js API via robust middleware, minimizing vulnerabilities and ensuring user data protection."
+        },
+        {
+          "task": "Worked closely with Sequelize to fine-tune MariaDB database performance, leading to faster and more reliable data transactions."
+        }
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://xsocharge.com/"
+        }
+      ],
+      "name": "XSOCharge",
+      "type": "web",
+      "description": "Mobile application for iOS/Android offering electric vehicle charging tracking."
+    }
+  ],
+
+  "contact": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send",
+    "intro": "If you want to get in touch, the form below is available."
+  },
+
+  "stacks": [
+    {
+      "name": "Frontend",
+      "data": [
+        {
+          "stack": "React",
+          "color": "bg-blue-600 text-slate-100"
+        },
+        {
+          "stack": "React Native",
+          "color": "bg-sky-600 text-slate-100"
+        },
+        {
+          "stack": "Redux",
+          "color": "bg-blue-800 text-slate-100"
+        },
+        {
+          "stack": "Next.js",
+          "color": "bg-slate-950 text-slate-100"
+        },
+        {
+          "stack": "SASS",
+          "color": "bg-pink-600 text-slate-100"
+        },
+        {
+          "stack": "Tailwind",
+          "color": "bg-cyan-600 text-slate-100"
+        }
+      ]
+    },
+    {
+      "name": "Backend",
+      "data": [
+        {
+          "stack": "Node.js",
+          "color": "bg-green-600 text-slate-100"
+        },
+        {
+          "stack": "Prisma",
+          "color": "bg-violet-800 text-slate-100"
+        },
+        {
+          "stack": "Sequelize",
+          "color": "bg-sky-400 text-slate-100"
+        },
+        {
+          "stack": "GraphQL",
+          "color": "bg-fuchsia-400 text-slate-100"
+        }
+      ]
+    },
+    {
+      "name": "Database",
+      "data": [
+        {
+          "stack": "MariaDB",
+          "color": "bg-orange-800 text-slate-100"
+        },
+        {
+          "stack": "MySQL",
+          "color": "bg-sky-500 text-slate-100"
+        },
+        {
+          "stack": "PostgreSQL",
+          "color": "bg-sky-800 text-slate-100"
+        },
+        {
+          "stack": "MongoDB",
+          "color": "bg-emerald-600 text-slate-100"
+        }
+      ]
+    },
+    {
+      "name": "Collaborative",
+      "data": [
+        {
+          "stack": "Jira",
+          "color": "bg-sky-500 text-slate-100"
+        },
+        {
+          "stack": "GitHub",
+          "color": "bg-gray-600 text-slate-100"
+        },
+        {
+          "stack": "GitLab",
+          "color": "bg-orange-500 text-slate-100"
+        },
+        {
+          "stack": "Figma",
+          "color": "bg-violet-700 text-slate-100"
+        },
+        {
+          "stack": "Agile/Scrum",
+          "color": "bg-neutral-500 text-slate-100"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "data": [
+        {
+          "stack": "Docker",
+          "color": "bg-sky-600 text-slate-100"
+        }
+      ]
+    }
+  ]
+}

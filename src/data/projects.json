@@ -1,0 +1,334 @@
+{
+      "projects": [
+    {
+      "id": 1,
+      "tasks": [
+        {
+            "task": "Designed and implemented the Prisma schema to manage users, runs, marathons, and notification preferences."
+        },
+        {
+            "task": "Integrated third-party APIs: Speedrun.com, Reddit, Twitch, and Horaro.org to fetch real-time data."
+        },
+        {
+            "task": "Containerized the development environment using Docker (Node.js + PostgreSQL)."
+        },
+        {
+            "task": "Built the landing page and complementary website to view news and marathons via a web browser."
+        },
+        {
+            "task": "Deployed with Next.js and Tailwind CSS, including basic SEO to improve visibility."
+        }
+      ],
+      "stacks": [
+        {
+          "name": "Prisma",
+           "color": "rgb(91 33 182)",
+           "text": "#fff"
+        },
+        {
+          "name": "Node.js",
+          "color": "rgb(22 163 74)",
+          "text": "#fff"
+        },
+        {
+          "name": "Next.js",
+          "color": "rgb(2 6 23)",
+          "text": "#fff"
+        },
+        {
+          "name": "Docker",
+          "color": "rgb(2 132 199)",
+          "text": "#fff"  
+        },
+        {
+          "name": "React Native",
+          "color": "rgb(2 132 199)",
+          "text": "#fff"
+        },
+        {
+          "name": "PostgreSQL",
+          "color": "rgb(7 89 133)",
+          "text": "#fff"
+        }
+      ],
+      "name": "SpeedRunHub",
+      "slug": "speedrunhub",
+      "image": "/images/speedrunhub.webp",
+      "type": "mobile",
+      "description": "iOS/Android mobile application & website dedicated to news, events and the practice of speedrunning in the field of video games.",
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://speedrunhub.com",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "stacks": [
+        {
+          "name": "Next.js",
+          "color": "rgb(2 6 23)",
+          "text": "#fff"
+        },
+        {
+          "name": "Redux",
+          "color": "rgb(30 64 175)",
+          "text": "#fff"
+        },
+        {
+          "name": "Node.js",
+          "color": "rgb(22 163 74)",
+          "text": "#fff"
+        },
+        {
+          "name": "Prisma",
+          "color": "rgb(91 33 182)",
+          "text": "#fff"
+        },
+        {
+          "name": "PostgreSQL",
+          "color": "rgb(7 89 133)",
+          "text": "#fff"
+        },
+        {
+          "name": "RabbitMQ",
+          "color": "rgb(249 115 22)",
+          "text": "#fff"
+        },
+        {
+          "name": "Docker",
+          "color": "rgb(2 132 199)",
+          "text": "#fff"
+        },
+        {
+          "name": "React Native",
+          "color": "rgb(2 132 199)",
+          "text": "#fff"
+        }
+      ],
+      "tasks": [
+        {
+          "task": "Developed custom hooks in React Native for better code consistency and maintainability."
+        },
+        {
+          "task": "Used Redux for centralized state management, improving application stability and predictability."
+        },
+        {
+          "task": "Managed deployments to the application stores, ensuring uninterrupted global access."
+        },
+        {
+          "task": "Implemented internationalization with i18next, expanding the multilingual accessibility of the application."
+        },
+        {
+          "task": "Secured the Node.js API with dedicated middleware, strengthening data protection."
+        },
+        {
+          "task": "Configured Docker to simplify deployment and ensure consistency across environments."
+        },
+        {
+          "task": "Improved MariaDB performance with Sequelize, maximizing responsiveness and data reliability."
+        }
+      ],
+      "links": [
+        {
+          "name": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.hoggy.videotekclientexpo",
+          "type": "playStore"
+        },
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/us/app/videotek/id6450999253",
+          "type": "appStore"
+        },
+        {
+          "name": "VideoTek",
+          "url": "https://videotek.xyz",
+          "type": "website"
+        }
+      ],
+      "name": "VideoTek",
+      "slug": "videotek",
+      "image": "/images/videotek.webp",
+      "type": "mobile",
+      "description": "Mobile application for iOS/Android, specially designed for fans of the world of cinema and television series."
+    },
+    {
+      "id": 3,
+      "stacks": [
+        {
+          "name": "GitLab",
+          "color": "rgb(249 115 22)",
+          "text": "#fff"
+        },
+        {
+          "name": "Redux",
+          "color": "rgb(30 64 175)",
+          "text": "#fff"
+        },
+        {
+          "name": "React",
+          "color": "rgb(37 99 235)",
+          "text": "#fff"
+        },
+        {
+          "name": "Node.js",
+          "color": "rgb(22 163 74)",
+          "text": "#fff"
+        },
+        {
+          "name": "MariaDB",
+          "color": "rgb(154 52 18)",
+          "text": "#fff"
+        },
+        {
+          "name": "Docker",
+          "color": "rgb(2 132 199)",
+          "text": "#fff"
+        },
+        {
+          "name": "Sequelize",
+          "color": "rgb(56 189 248)",
+          "text": "#fff"
+        }
+      ],
+      "tasks": [
+        {
+          "task": "Implemented Redux for centralized state management, increasing the predictability and stability of the mobile application."
+        },
+        {
+          "task": "Configured the Docker development environment, improving the development workflow and ensuring consistency across environments."
+        },
+        {
+          "task": "Deployed the API to a development server, facilitating ongoing feature integration and testing."
+        },
+        {
+          "task": "Enhanced Node.js API security with specialized middleware, securing data and preventing unauthorized access."
+        },
+        {
+          "task": "Improved MariaDB database performance with Sequelize, maximizing responsiveness and reliability of data transactions."
+        }
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://www.confort-electrique.fr/",
+          "type": "website"
+        }
+      ],
+      "name": "Confort Electrique",
+      "slug": "confort-electrique",
+      "image": "/images/confort-elec.webp",
+      "type": "web",
+      "description": "Development of a centralized back office to improve data management and processes."
+    },
+    {
+      "id": 4,
+      "stacks": [
+        {
+          "name": "React",
+          "color": "rgb(37 99 235)",
+          "text": "#fff"
+        },
+        {
+          "name": "Redux",
+          "color": "rgb(30 64 175)",
+          "text": "#fff"
+        },
+        {
+          "name": "Node.js",
+          "color": "rgb(22 163 74)",
+          "text": "#fff"
+        },
+        {
+          "name": "MariaDB",
+          "color": "rgb(154 52 18)",
+          "text": "#fff"
+        },
+        {
+          "name": "Docker",
+          "color": "rgb(2 132 199)",
+          "text": "#fff"
+        },
+        {
+          "name": "React Native",
+          "color": "rgb(2 132 199)",
+          "text": "#fff"
+        },
+        {
+          "name": "Sequelize",
+          "color": "rgb(56 189 248)",
+          "text": "#fff"
+        }
+      ],
+      "tasks": [
+        {
+          "task": "Designed custom hooks for React Native, improving the consistency and maintainability of the mobile app code."
+        },
+        {
+          "task": "Integrated Redux for centralized state management, increasing the reliability and predictability of the mobile application."
+        },
+        {
+          "task": "Lead the implementation of a back office for administrators using React.js, with the adoption of PrimeReact for a rich and intuitive user interface."
+        },
+        {
+          "task": "Ensured the configuration of the Docker development environment, optimizing the development workflow and environmental parity."
+        },
+        {
+          "task": "Deployed the API on a development server, ensuring continuous integration and agile testing of features in real time."
+        },
+        {
+          "task": "Secured the Node.js API via robust middleware, minimizing vulnerabilities and ensuring user data protection."
+        },
+        {
+          "task": "Worked closely with Sequelize to fine-tune MariaDB database performance, leading to faster and more reliable data transactions."
+        }
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://xsocharge.com/",
+          "type": "website"
+        }
+      ],
+      "name": "XSOCharge",
+      "slug": "xso-charge",
+      "image": "/images/xso-charge.webp",
+      "type": "web",
+      "description": "Mobile application for iOS/Android offering electric vehicle charging tracking."
+    },
+    {
+      "id": 5,
+      "stacks": [
+        {
+          "name": "React",
+          "color": "rgb(37 99 235)",
+          "text": "#fff"
+        },
+        {
+          "name": "Docker",
+          "color": "rgb(2 132 199)",
+          "text": "#fff"
+        }
+      ],
+      "tasks": [
+        {
+          "task": "Designed custom hooks for React Native, improving the consistency and maintainability of the mobile app code."
+        }
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://www.robotsbar.com/",
+          "type": "website"
+        }
+      ],
+      "name": "Robots Bar",
+      "slug": "robots-bar",
+      "image": "/images/robots-bar.webp",
+      "type": "web",
+      "description": "Implement a React interface for customer ordering on a robotic bar."
+    }
+  ]
+}

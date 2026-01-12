@@ -1,0 +1,56 @@
+---
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  Box,
+  Typography,
+  CardMedia,
+} from "@mui/material"
+import homepage from "../data/homepage.json"
+import presentation from "../../public/images/presentation.webp"
+import { Image } from "astro:assets"
+---
+
+<div id="About">
+  <Box sx={{ p: 3, mt: 10 }}>
+    <Card
+      sx={{
+        borderRadius: 2,
+        backgroundColor: "rgb(17,24,39)",
+        color: "#fff",
+      }}
+      raised
+    >
+      <CardHeader
+        slotProps={{
+          title: {
+            sx: { fontWeight: "bold", fontSize: 30 },
+          },
+        }}
+        title={homepage.about.title}
+      />
+      <CardContent
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <Typography sx={{ fontSize: 20, textAlign: "justify", width: "50%" }}>
+          {homepage.about.description}
+        </Typography>
+        <CardMedia sx={{ width: "50%" }}>
+          <Image
+            src={presentation}
+            alt="Presentation"
+            width={626}
+            height={380}
+            loading="lazy"
+          />
+        </CardMedia>
+      </CardContent>
+    </Card>
+  </Box>
+</div>

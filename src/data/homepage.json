@@ -1,0 +1,195 @@
+{
+    "about": {
+        "title": "Tournier Maxime | Fullstack Developer",
+        "description": "FullStack developer with solid experience in designing, optimizing and deploying websites and applications. Expertise in Javascript technologies and associated frameworks. Ability to work in demanding environments and collaborate effectively with multidisciplinary teams"
+    },
+    "skills": {
+        "title": "Web and Mobile Development Expertise",
+        "description": "Skilled in modern technologies, I specialize in developing web and mobile applications focused on performance and user experience.",
+        "data": [
+            {
+                "id": 1,
+                "image": "/images/frontend.webp",
+                "title": "Frontend",
+                "stacks": [
+                    {
+                        "stack": "React",
+                        "color": "rgb(37 99 235)",
+                        "text": "#fff"
+                    },
+                    {
+                        "stack": "React Native",
+                        "color": "rgb(2 132 199)",
+                        "text": "#fff"
+                    },
+                    {
+                        "stack": "Next.js",
+                        "color": "rgb(2 6 23)",
+                        "text": "#fff"
+                    },
+                    {
+                        "stack": "Redux",
+                        "color": "rgb(30 64 175)",
+                        "text": "#fff"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "image": "/images/backend.webp",
+                "title": "Backend",
+                "stacks": [
+                    {
+                        "stack": "Node.js",
+                        "color": "rgb(22 163 74)",
+                        "text": "#fff"
+                    },
+                    {
+                        "stack": "Prisma",
+                        "color": "rgb(91 33 182)",
+                        "text": "#fff"
+                    }, 
+                    {
+                        "stack":"Sequelize",
+                        "color": "rgb(56 189 248)",
+                        "text": "#fff"
+                    },
+                    {
+                        "stack":"GraphQL",
+                        "color": "rgb(232 121 249)",
+                        "text": "#fff"
+                    },
+                    {
+                        "stack":"Mongoose",
+                        "color": "rgb(22 163 74)",
+                        "text": "#fff"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "image": "/images/database.webp",
+                "title": "DataBase",
+                "stacks": [
+                    {
+                        "stack": "MySQL",
+                        "color": "rgb(14 165 233)",
+                        "text": "#fff"
+                    },
+                    {
+                        "stack": "MariaDB",
+                        "color": "rgb(154 52 18)",
+                        "text": "#fff"
+                    },
+                    {
+                        "stack":"PostGreSQL",
+                        "color": "rgb(7 89 133)",
+                        "text": "#fff"
+                    },
+                    {
+                        "stack":"MongoDB",
+                        "color": "rgb(5 150 105)",
+                        "text": "#fff"
+                    }
+                ]
+            },
+            {
+            "id": 4,
+            "image": "/images/collaborative.webp",
+            "title": "Collaborative",
+            "stacks": [
+                { 
+                    "stack": "GitHub",
+                    "color": "rgb(75 85 99)",
+                    "text": "#fff"
+                },
+                { 
+                    "stack": "GitLab",
+                    "color": "rgb(249 115 22)",
+                    "text": "#fff"
+                }
+            ]
+            },
+            {
+            "id": 5,
+            "image": "/images/devops.webp",
+            "title": "DevOps",
+            "stacks": [
+                { 
+                    "stack": "Docker", 
+                    "color": "rgb(2 132 199)",
+                    "text": "#fff"
+                },
+                { 
+                    "stack": "GitHub Actions",
+                    "color": "rgb(75 85 99)",
+                    "text": "#fff"
+                }
+            ]
+            },
+            {
+                "id": 6,
+                "image": "/images/tools.webp",
+                "title": "Tools",
+                "stacks": [
+                    { 
+                        "stack": "Jira",
+                        "color": "rgb(14 165 233)",
+                        "text": "#fff" 
+                    },
+                    { 
+                        "stack": "Figma",
+                        "color": "rgb(109 40 217)",
+                        "text": "#fff"
+                     },
+                    { 
+                        "stack": "Agile",
+                        "color": "rgb(115 115 115)",
+                        "text": "#fff"
+                    }
+                ]
+                }
+        ]
+    },
+    "realisation": {
+        "title": "Selected Works - Real Results in Web & Mobile Development",
+        "description": "A curated selection of projects demonstrating my full-stack expertise and problem-solving mindset — built to meet real-world needs.",
+        "data": [
+            {
+                "title": "XSOCharge",
+                "description": "Mobile application for iOS/Android offering electric vehicle charging tracking.",
+                "image": "/images/xso-charge.webp",
+                "path": "/project/xso-charge"
+            },
+            {
+                "title": "Confort Electrique",
+                "description": "Development of a centralized back office to improve data management and processes.",
+                "image": "/images/confort-elec.webp",
+                "path": "/project/confort-electrique"
+            },
+            {
+                "title": "VideoTek",
+                "description": "Cinema and television series mobile application for iOS/Android.",
+                "image": "/images/videotek.webp",
+                "path": "/project/videotek"
+            },
+            {
+                "title": "Robots Bar",
+                "description": "Implement a React interface for customer ordering on a robotic bar.",
+                "image": "/images/robots-bar.webp",
+                "path": "/project/robots-bar"
+            },
+            {
+                "title": "SpeedRunHub",
+                "description": "Website to track speedrun events like marathons and news.",
+                "image": "/images/speedrunhub.webp",
+                "path": "/project/speedrunhub"
+            }
+
+        ]
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "If you want to get in touch, the form below is available."
+    }
+}

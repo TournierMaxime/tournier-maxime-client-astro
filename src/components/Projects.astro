@@ -1,0 +1,80 @@
+---
+import {
+  Box,
+  Button,
+  Card,
+  CardContent,
+  CardHeader,
+  CardMedia,
+  Typography,
+  Grid,
+} from "@mui/material"
+import homepage from "../data/homepage.json"
+---
+
+<div id="Projects">
+  <Box component="main" sx={{ p: 3 }}>
+    <Typography sx={{ fontSize: 30, fontWeight: "bold", mb: 2 }}>
+      {homepage.realisation.title}
+    </Typography>
+
+    <Typography sx={{ fontSize: 20, textAlign: "justify", mb: 4 }}>
+      {homepage.realisation.description}
+    </Typography>
+
+    <Grid container spacing={2}>
+      {
+        homepage.realisation.data.map((d, index) => {
+          return (
+            <Grid size={{ xs: 12, sm: 6, md: 6, lg: 4 }} key={index}>
+              <Card
+                sx={{
+                  borderRadius: 2,
+                  color: "#000",
+                  height: "100%",
+                  width: "100%",
+                  boxShadow: 3,
+                }}
+              >
+                <CardMedia
+                  sx={{
+                    backgroundSize: "cover",
+                    backgroundPosition: "top",
+                    width: "100%",
+                    height: 256,
+                    maxHeight: 256,
+                  }}
+                  image={d.image}
+                  title={d.title}
+                />
+                <CardHeader
+                  slotProps={{
+                    title: {
+                      sx: { fontWeight: "bold", fontSize: 20 },
+                    },
+                  }}
+                  title={d.title}
+                />
+                <CardContent>
+                  <Typography sx={{ height: "auto", width: "auto" }}>
+                    {d.description}
+                  </Typography>
+                  <a href={d.path}>
+                    <Button
+                      sx={{ mt: 2 }}
+                      variant="outlined"
+                      type="button"
+                      color="primary"
+                    >
+                      View Details
+                    </Button>
+                  </a>
+                </CardContent>
+              </Card>
+            </Grid>
+          )
+        })
+      }
+    </Grid>
+  </Box>
+</div>

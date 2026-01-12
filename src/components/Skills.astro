@@ -1,0 +1,56 @@
+---
+import {
+  Box,
+  CardContent,
+  CardMedia,
+  Chip,
+  Grid,
+  Typography,
+  Card,
+} from "@mui/material"
+import homepage from "../data/homepage.json"
+---
+    <div id="Skills">
+      <Box component="main" sx={{ p: 3 }}>
+        <Typography sx={{ fontSize: 30, fontWeight: "bold", mb: 2 }}>
+          {homepage.skills.title}
+        </Typography>
+
+        <Typography sx={{ fontSize: 20, textAlign: "justify", mb: 4 }}>
+          {homepage.skills.description}
+        </Typography>
+
+        <Grid container spacing={2}>
+          {homepage.skills.data.map((d, index) => (
+            <Grid size={{ xs: 12, md: 6, lg: 4 }} key={index}>
+              <Card sx={{ height: "100%", width: "100%", boxShadow: 3 }}>
+                <CardMedia
+                  sx={{
+                    backgroundSize: "cover",
+                    backgroundPosition: "top",
+                    width: "100%",
+                    height: 256,
+                    maxHeight: 256,
+                  }}
+                  image={d.image}
+                  title={d.title}
+                />
+                <CardContent sx={{ display: "flex", flexWrap: "wrap", gap: 1 }}>
+                  {d.stacks.map((stack, i) => (
+                    <Chip
+                      key={i}
+                      label={stack.stack}
+                      sx={{
+                        color: stack.text,
+                        backgroundColor: stack.color,
+                      }}
+                    />
+                  ))}
+                </CardContent>
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      </Box>
+    </div>
+
